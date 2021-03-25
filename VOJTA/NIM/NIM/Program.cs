@@ -6,8 +6,10 @@ namespace NIM
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
+            Engine Eng = new Engine();
+            Eng.Start();
+
         }
+
     }
 }
