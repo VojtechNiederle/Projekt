@@ -11,6 +11,6 @@
 ```
 Print - tiskne pole M do konzole
 Suma(x) - součet jedniček v řádku x
-Start() - dokud není součet všech hodnot pole M nechá hráče hrát jinak vyhlásí vítěze a ukončí cyklus
+Start() - dokud není součet všech hodnot pole M roven 1 nechá hráče hrát jinak vyhlásí vítěze a ukončí cyklus
         - do proměnné num ukládá číslo zadané hráčem a konvertuje ho z string na int
 ```
