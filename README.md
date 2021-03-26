@@ -18,6 +18,7 @@ Start() - dokud není součet všech hodnot pole M roven 1 nechá hráče hrát 
 #### AI:
 
 ([Stránka s vysvětlením algoritmu](https://www.algoritmy.net/article/30057/Nim))
+([Stránka s XOR](https://zone.ni.com/reference/en-XX/help/375482B-01/multisim/xor4/))
 ```
 -asi nejjednodužší bude převést sumy jednotlivejch řádků do binárky a a potom je XOR odečíst
 tím získáme kolik sirek je třeba odebrat. Detekce z kterého řádku bude program odebírat 
