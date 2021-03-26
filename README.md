@@ -16,8 +16,9 @@ Start() - dokud není součet všech hodnot pole M roven 1 nechá hráče hrát 
         - do proměnné num ukládá číslo zadané hráčem a konvertuje ho z string na int
 ```
 #### AI:
-```
+
 ![Stránka s vysvětlením algoritmu](https://www.algoritmy.net/article/30057/Nim)
+```
 -asi nejjednodužší bude převést sumy jednotlivejch řádků do binárky a a potom je XOR odečíst
 tím získáme kolik sirek je třeba odebrat. Detekce z kterého řádku bude program odebírat 
 ještě není domyšlena.
