@@ -38,3 +38,5 @@ NIM:       BIN:
 ---------------
 XOR:       110 (Od posledního řádku musíme odečíst 110 potom to bude v cajku)
 ```
+-vzhledem k aktualnim pravidlům hry tímto algoritmem nejde vyhrát. Algoritmus bude fungovat buď ošetřením posledních tahů,
+nebo změny pravidel na to že kto poslední vezme sirku vyhrál.
