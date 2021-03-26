@@ -23,7 +23,7 @@ Start() - dokud není součet všech hodnot pole M roven 1 nechá hráče hrát 
 ```
 -asi nejjednodužší bude převést sumy jednotlivejch řádků do binárky a a potom je XOR odečíst
 tím získáme kolik sirek je třeba odebrat. Detekce z kterého řádku bude program odebírat 
-ještě není domyšlena.
+ještě není domyšlena. XOR se aplikuje na každý sloupec zvlášť.
 NIM:       BIN:
 1          001  
 111        011
