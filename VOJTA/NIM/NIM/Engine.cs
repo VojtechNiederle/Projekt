@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Linq;
+using System.Threading;
+
 
 namespace NIM
 {
@@ -113,14 +115,15 @@ namespace NIM
                 Console.WriteLine("-------------------");
                 Console.WriteLine($"Player {player} on turn:");
                 Print();
+                Console.WriteLine($"Player {PNames[player]} on turn:");
                 if (PNames[player] != "BOT") // pokud hráč není bot tak hraje
                 {
-                    Console.WriteLine($"Player {PNames[player]} on turn:");
                     num = Convert.ToInt32(Console.ReadLine());
                 }
                 else if(PNames[player] == "BOT") // pokud hráč je bot tak jde na řadu tento process
                 {
-                    if(line != 99 && Suma(line) == 0) // pokud už na lince není sirka bot ukončí tah.
+                    Thread.Sleep(1000);
+                    if (line != 99 && Suma(line) == 0) // pokud už na lince není sirka bot ukončí tah.
                     {
                         num = 99;
                     }
@@ -163,6 +166,7 @@ namespace NIM
                     M[b, c] = 0;
                 }
             }
+            Console.Clear();
             Print();
             Console.WriteLine($"Player {PNames[player]} won!");
         }
