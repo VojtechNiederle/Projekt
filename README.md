@@ -1,3 +1,12 @@
+### 3.4.
+#### Změny:
+```
+-furt ještě konzolovka
+-Hra je funkční včetně bota
+-Pravidla byly změněny na to že kdo poslední odebere sirku tak vyhrál kvůli jednoduchosi bota
+-Hráč může zapnout bota při zadávání jmen hráčů tím že zadá jméno BOT
+-pokud se jako boti určí oba hráči první hráč vždy prohraje 
+```
 ### 25.3.
 #### Funkce:
 ```
